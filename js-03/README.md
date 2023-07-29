@@ -33,7 +33,6 @@ The following describes the steps taken to modify the code in VScode:
             }
             return 'INVALID NUMBER!'
         }
-
 - Calling the function using 'console.log':
     - `console.log(calculator(num1, num2, operator))`
 
@@ -52,8 +51,6 @@ It was implemented using the 'toUpperCase' method, as described in the steps bel
         function textUpperCase(x) {
             return x.toUpperCase()
         }
-    ```
-
 - Showing the result in console:
     - `console.log(textUpperCase(userText))`
 
@@ -70,7 +67,6 @@ It was implemented using the code below:
         const userScore_3 = +prompt("Enter Scores!")
         const userScore_4 = +prompt("Enter Scores!")
         const userScore_5 = +prompt("Enter Scores!")
-    ```
 - Making a function to calculate the average of 5 given numbers:
     - ```
         function average(a, b, c, d, e) {
@@ -79,19 +75,14 @@ It was implemented using the code below:
             }
             return 'ERR! INVALID NUMBERS!'
         }
-    ```
-
 - Calling the function and putting the user's scores as input, then assigning a variable to the result and showing the result in the console:
     - ```
         const userAverage = average(userScore_1, userScore_2, userScore_3, userScore_4, userScore_5)
         console.log(userAverage)
-    ```
-
 - Assiging a condition to check whether the average is above or below 12 and showing a message accordingly:
-    -```
+    - ```
         if (userAverage >= 12) {
             console.log('Passed!')
         } else {
             console.log('Failed!')
         }
-    ```
